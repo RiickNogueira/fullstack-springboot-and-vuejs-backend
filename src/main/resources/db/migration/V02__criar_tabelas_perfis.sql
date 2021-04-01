@@ -1,0 +1,6 @@
+ CREATE TABLE perfis (
+  id INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(50) NOT NULL,
+  PRIMARY KEY (id),
+  UNIQUE INDEX nome_perfil_UNIQUE (nome ASC));
+  
