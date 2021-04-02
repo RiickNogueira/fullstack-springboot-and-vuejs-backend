@@ -34,4 +34,4 @@ build/
 
 ### Deploy ###
 Procfile
-application-prod.properties
+/src/main/resources/application-prod.properties
