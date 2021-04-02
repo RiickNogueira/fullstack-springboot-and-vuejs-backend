@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Deploy ###
+Procfile
+application-prod.properties
