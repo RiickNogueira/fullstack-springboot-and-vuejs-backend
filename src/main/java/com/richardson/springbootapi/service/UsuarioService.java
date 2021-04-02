@@ -1,6 +1,7 @@
 package com.richardson.springbootapi.service;
 
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.List;
 import java.util.Optional;
 
@@ -29,7 +30,7 @@ public class UsuarioService {
 
 	public Usuario create(Usuario obj) {
 		obj.setId(null);
-		obj.setCriadoEm(LocalDateTime.now());
+		obj.setCriadoEm(LocalDateTime.now(ZoneId.of("America/Sao_Paulo")));
 		return repo.save(obj);
 	}
 
